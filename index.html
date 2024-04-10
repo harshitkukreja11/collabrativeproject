@@ -5,105 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #container{
-            height: 400px;
-            width: 300px;
+        #nav{
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        #cards{
             display: grid;
-            grid-template-columns: repeat(4 , 1fr);
-            grid-template-rows:500px 500px 500px ;
+            grid-template-columns: repeat(4 ,1fr);
+            grid-template-rows: 700px 700px;
             gap: 2%;
-        }
-        @media screen and (min-width: 520px) and (max-width:800px){
-            #container{
-                display: grid;
-                grid-template-columns: repeat(3 , 1fr);
-            }
-        }
-        @media screen and (min-width: 0px) and (max-width:500px){
-            #container{
-                display: grid;
-                grid-template-columns: repeat(2 , 1fr);
-            }
+            margin: 10px;
         }
     </style>
 </head>
 <body>
-    <div id="container">
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
+    <div id="nav">
+        <h1>More brands</h1>
+        <h2>store</h2>
+        <h3>locate us</h3>
+        <h8>Login</h8>
         </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
+        <div id="cards">
+            <div id="card1">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39628109-12976208.jpg?q=75&auto=format&w=387">
+                <h4>trending shoes</h4>
+                <h5>Reebok</h5>
+                <h6>$900</h6>
+            </div>
+            <div id="card1">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39628109-12976208.jpg?q=75&auto=format&w=387">
+                <h4>trending shoes</h4>
+                <h5>Reebok</h5>
+                <h6>$900</h6>
+            </div>
+            <div id="card1">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39628109-12976208.jpg?q=75&auto=format&w=387">
+                <h4>trending shoes</h4>
+                <h5>Reebok</h5>
+                <h6>$900</h6>
+            </div>
+            <div id="card1">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39628109-12976208.jpg?q=75&auto=format&w=387">
+                <h4>trending shoes</h4>
+                <h5>Reebok</h5>
+                <h6>$900</h6>
+            </div>
+            <div id="card1">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39628109-12976208.jpg?q=75&auto=format&w=387">
+                <h4>trending shoes</h4>
+                <h5>Reebok</h5>
+                <h6>$900</h6>
+            </div>
+            <div id="card1">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39628109-12976208.jpg?q=75&auto=format&w=387">
+                <h4>trending shoes</h4>
+                <h5>Reebok</h5>
+                <h6>$900</h6>
+            </div>
+            <div id="card1">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39628109-12976208.jpg?q=75&auto=format&w=387">
+                <h4>trending shoes</h4>
+                <h5>Reebok</h5>
+                <h6>$900</h6>
+            </div>
         </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-        <div>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-            <h1>Vijay sharma</h1>
-            <p>Founder and CEO</p>
-            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" height="90px" width="90px">
-        </div>
-
-    
-
-    </div>
 </body>
 </html>
